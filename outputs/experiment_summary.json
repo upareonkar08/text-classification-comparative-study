@@ -1,0 +1,63 @@
+{
+  "dataset": "20 Newsgroups (sci.space vs rec.sport.hockey)",
+  "random_state": 42,
+  "test_size": 0.2,
+  "train_documents": 1588,
+  "test_documents": 398,
+  "tfidf_features": 23356,
+  "best_model_by_weighted_f1": "SVM",
+  "best_weighted_f1": 0.9572694389823514,
+  "metrics": [
+    {
+      "Model": "SVM",
+      "Accuracy": 0.957286432160804,
+      "Precision (weighted)": 0.958233004311336,
+      "Recall (weighted)": 0.957286432160804,
+      "F1-score (weighted)": 0.9572694389823514
+    },
+    {
+      "Model": "Naive Bayes",
+      "Accuracy": 0.9547738693467337,
+      "Precision (weighted)": 0.9551809411133337,
+      "Recall (weighted)": 0.9547738693467337,
+      "F1-score (weighted)": 0.9547601592654442
+    },
+    {
+      "Model": "KNN",
+      "Accuracy": 0.9422110552763819,
+      "Precision (weighted)": 0.9422207636409186,
+      "Recall (weighted)": 0.9422110552763819,
+      "F1-score (weighted)": 0.9422099607542431
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.8819095477386935,
+      "Precision (weighted)": 0.8847658038572581,
+      "Recall (weighted)": 0.8819095477386935,
+      "F1-score (weighted)": 0.88171917439377
+    }
+  ],
+  "what_if_svm_C": [
+    {
+      "SVM C": 0.1,
+      "Accuracy": 0.9472361809045227,
+      "Precision (weighted)": 0.950544053345901,
+      "Recall (weighted)": 0.9472361809045227,
+      "F1-score (weighted)": 0.9471511204738122
+    },
+    {
+      "SVM C": 1.0,
+      "Accuracy": 0.957286432160804,
+      "Precision (weighted)": 0.958233004311336,
+      "Recall (weighted)": 0.957286432160804,
+      "F1-score (weighted)": 0.9572694389823514
+    },
+    {
+      "SVM C": 10.0,
+      "Accuracy": 0.9547738693467337,
+      "Precision (weighted)": 0.954962222711862,
+      "Recall (weighted)": 0.9547738693467337,
+      "F1-score (weighted)": 0.9547715851987209
+    }
+  ]
+}
